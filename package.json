@@ -1,0 +1,26 @@
+{
+  "name": "scraper-hw",
+  "version": "1.0.0",
+  "description": "This is a web app that allows users to scrape a site for news stories. It uses axios to access the site and cheerio to scrape the data. The data is stored in a Mongo database.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ks563/scraper-HW.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ks563/scraper-HW/issues"
+  },
+  "homepage": "https://github.com/ks563/scraper-HW#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "mongoose": "^5.5.1"
+  }
+}
