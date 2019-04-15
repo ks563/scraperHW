@@ -28,4 +28,6 @@ app.use("/", router);
 
 require("./routes/apiRoutes")(router);
 
+mongoose.connect("mongodb://127.0.01/scraper", { useNewUrlParser: true });
+
 module.exports = app;
